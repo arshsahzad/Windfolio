@@ -2,7 +2,7 @@ import React from "react";
 import "./lockScreen.scss";
 import { setSystemState } from "../../utils/actions/system.action";
 import { useDispatch } from "react-redux";
-import avatar from "../../assets/images/baseImages/default_avatar.svg";
+import avatar from "../../assets/images/baseImages/Avatar.png";
 import { Icon, PrimaryButton, TextField } from "@fluentui/react";
 import SocialBlock from "../base/socialBlock";
 
@@ -27,7 +27,7 @@ function SignInScreen() {
 				</div>
 				<div>
 					<h1 className="uk-heading-small  font-color-white">
-						Srinibas Biswal
+						Arsh Sahzad
 					</h1>
 				</div>
 				<div>
